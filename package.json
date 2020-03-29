@@ -1,6 +1,6 @@
 {
-  "name": "mjml-master",
-  "version": "4.0.0",
+  "name": "mjml",
+  "version": "4.6.2",
   "private": true,
   "scripts": {
     "build:watch": "lerna run build --parallel -- -- -w",
@@ -12,6 +12,11 @@
   "workspaces": [
     "packages/*"
   ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/fabiormoura/mjml.git",
+    "directory": "packages/mjml"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
